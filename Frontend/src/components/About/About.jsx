@@ -41,7 +41,7 @@ const About = () => {
           </h3> */}
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
+            I am a full-stack developer with over 8 Months of experience in
             building scalable web applications. Skilled in both front-end and
             back-end development, I specialize in the MERN stack and other
             modern technologies to create seamless user experiences and
@@ -66,8 +66,8 @@ const About = () => {
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
             className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
-            tiltMaxAngleX={20}
-            tiltMaxAngleY={20}
+            tiltMaxAngleX={18}
+            tiltMaxAngleY={18}
             perspective={1000}
             scale={1.05}
             transitionSpeed={1000}

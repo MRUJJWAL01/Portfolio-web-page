@@ -15,7 +15,7 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
+      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[14vw] font-sans relative"
     >
       {/* Section Title */}
       <div className="text-center mb-16">
@@ -71,7 +71,7 @@ const Work = () => {
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
-                className="text-white text-3xl font-bold hover:text-purple-500"
+                className="text-white text-3xl font-bold cursor-pointer hover:text-purple-500"
               >
                 &times;
               </button>

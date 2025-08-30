@@ -24,7 +24,15 @@ const Navbar = () => {
 
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+      if (sectionId === "about") {
+        // custom scroll for about
+        const navbarHeight = 120; // adjust to your navbar height + margin
+        const offset = section.offsetTop - navbarHeight - 20; // extra 20px margin
+        window.scrollTo({ top: offset, behavior: "smooth" });
+      } else {
+        //default behaviour
+        section.scrollIntoView({ behavior: "smooth" });
+      }
     }
   };
 
@@ -38,17 +46,18 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw] ${
-        isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"
+      className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[12vw] ${
+        isScrolled
+          ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md"
+          : "bg-transparent"
       }`}
     >
       <div className="text-white py-5 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-lg font-semibold cursor-pointer">
+        <div className="text-2xl font-semibold cursor-pointer">
           <span className="text-[#8245ec]">&lt;</span>
           <span className="text-white">Ujjwal</span>
           <span className="text-[#8245ec]">/</span>
-          <span className="text-white">Chouhan</span>
           <span className="text-[#8245ec]">&gt;</span>
         </div>
 
@@ -61,7 +70,10 @@ const Navbar = () => {
                 activeSection === item.id ? "text-[#8245ec]" : ""
               }`}
             >
-              <button onClick={() => handleMenuItemClick(item.id)}>
+              <button
+                className="cursor-pointer text-2xl hover:text-[#bea3ed]"
+                onClick={() => handleMenuItemClick(item.id)}
+              >
                 {item.label}
               </button>
             </li>
@@ -76,15 +88,15 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
           >
-            <FaGithub size={24} />
+            <FaGithub size={32} />
           </a>
           <a
             href="https://www.linkedin.com/in/ujjwalsingh-chouhan/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#8245ec]"
+            className="text-gray-300 text-2xl hover:text-[#8245ec]"
           >
-            <FaLinkedin size={24} />
+            <FaLinkedin size={32} />
           </a>
         </div>
 

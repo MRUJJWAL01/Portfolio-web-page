@@ -207,7 +207,7 @@ export const SkillsInfo = [
     //     "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
     //   image: githubdetLogo,
     //   tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    //   github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+    //   github: "https://github.com/MRUJJWAL01",
     //   webapp: "https://githubprofiledetective.netlify.app/",
     // },
     // {
@@ -217,7 +217,7 @@ export const SkillsInfo = [
     //     "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
     //   image: csprepLogo,
     //   tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-    //   github: "https://github.com/codingmastr/CSPrep",
+    //   github: "https://github.com/MRUJJWAL01",
     //   webapp: "https://csprep.netlify.app/",
     // },
     // {
@@ -257,7 +257,7 @@ export const SkillsInfo = [
         "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
       image: webverLogo,
       tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
+      github: "https://github.com/MRUJJWAL01",
       webapp: "https://webversedigital.com/",
     },
     // {
@@ -277,7 +277,7 @@ export const SkillsInfo = [
         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
       image: imagesearchLogo,
       tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
+      github: "https://github.com/MRUJJWAL01",
       webapp: "https://imagsearch.netlify.app/",
     },
     {
@@ -287,7 +287,7 @@ export const SkillsInfo = [
         "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
       image: removebgLogo,
       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
+      github: "https://github.com/MRUJJWAL01",
       webapp: "https://removeyourbg.netlify.app/",
     },
   ];  
